@@ -49,7 +49,7 @@ void main() {
     int size = sizeof(a)/sizeof(a[0]);
     
     printf("Gia tri mang ban dau: ");
-    for (i = 0; i < 7; i++) {
+    for (i = 0; i < size; i++) {
         printf("%2d", a[i]);
     }
 
